@@ -11,9 +11,11 @@
 }
 
 header > #SDS{
+    display: flex;
+    justify-content: center;
     background-color: white;
     color: var(--cor-SDS);
-    height: 100px;
+    height: 150px;
     font: normal 1.2em 'Ubuntu', Arial, Helvetica, sans-serif;
 }
 #container-SDS{
@@ -22,6 +24,9 @@ header > #SDS{
     justify-content: center;
 }
 
+#imagem-logo-SDS{
+    max-width:200px;
+}
 header > #canil{
     background-color: var(--cor-SDS);
     max-height: 400px;
@@ -41,8 +46,9 @@ header #img-brasao-canil{
 #container-canil > h2{
     font: bolder 1.4em Arial, Helvetica, sans-serif;
 }
-#container-canil > h3{
-    font: bolder 0.9em Arial, Helvetica, sans-serif;
+#nome > h3{
+    font: bolder 0.95em Arial, Helvetica, sans-serif;
+    padding:10px;
 }
 #nome{
     text-align: center;
@@ -57,14 +63,14 @@ nav > a{
     text-decoration: none;
     color:aliceblue;
     padding:10px;
-    font: normal 1em 'ubuntu', Arial, Sans-serif;
+    font: bold 1em 'ubuntu', Arial, Sans-serif;
 }
 
 nav > a:hover, #atual{
     color: var(--cor-SDS);
     background:#668aff;
     border-radius:10px 10px 0 0;
-    font: normal 1.2em 'ubuntu', Arial, sans-serif;
+    font: bold 1.2em 'ubuntu', Arial, sans-serif;
     transition-duration: 0.5s;
 }
 
