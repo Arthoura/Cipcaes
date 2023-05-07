@@ -14,7 +14,7 @@ header > #SDS{
     background-color: white;
     color: var(--cor-SDS);
     height: 100px;
-    font: normal 1.4em 'Ubuntu', Arial, Helvetica, sans-serif;
+    font: normal 1.2em 'Ubuntu', Arial, Helvetica, sans-serif;
 }
 #container-SDS{
     display: flex;
@@ -42,7 +42,7 @@ header #img-brasao-canil{
     font: bolder 1.4em Arial, Helvetica, sans-serif;
 }
 #container-canil > h3{
-    font: bolder 1em Arial, Helvetica, sans-serif;
+    font: bolder 0.9em Arial, Helvetica, sans-serif;
 }
 #nome{
     text-align: center;
