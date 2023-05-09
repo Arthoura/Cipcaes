@@ -78,7 +78,7 @@ main{
     height:900px;
     background-image: url('imagens/background2.jpg');
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
 }
 
 footer{
