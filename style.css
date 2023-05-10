@@ -15,10 +15,8 @@ header > #SDS{
     justify-content: center;
     background-color: white;
     color: var(--cor-SDS);
-    height: 150px;
+    height: 130px;
     font: normal 1.2em 'Ubuntu', Arial, Helvetica, sans-serif;
-}
-#container-SDS{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,9 +28,6 @@ header > #SDS{
 header > #canil{
     background-color: var(--cor-SDS);
     max-height: 400px;
-}
-
-header #container-canil{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,10 +38,10 @@ header #container-canil{
 header #img-brasao-canil{
     width: 130px;
 }
-#container-canil > h2{
-    font: bolder 1.4em Arial, Helvetica, sans-serif;
+#canil h2{
+    font: bolder 2em Arial, Helvetica, sans-serif;
 }
-#nome > h3{
+#nome h3{
     font: bolder 0.95em Arial, Helvetica, sans-serif;
     padding:10px;
 }
@@ -79,6 +74,7 @@ main{
     background-image: url('imagens/background2.jpg');
     background-position: center center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 footer{
