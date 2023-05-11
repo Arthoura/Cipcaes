@@ -62,14 +62,14 @@ nav > a{
     text-decoration: none;
     color:aliceblue;
     padding:10px;
-    font: bold 1em 'ubuntu', Arial, Sans-serif;
+    font: bold 0.9em 'ubuntu', Arial, Sans-serif;
 }
 
 nav > a:hover, #atual{
     color: var(--cor-SDS);
     background:#668aff;
     border-radius:10px 10px 0 0;
-    font: bold 1.2em 'ubuntu', Arial, sans-serif;
+    font: bold 1em 'ubuntu', Arial, sans-serif;
     transition-duration: 0.5s;
 }
 
@@ -116,13 +116,14 @@ main h2{
 }
 .quadro h2{
     margin: 0;
-    background-color: #00A859;
-    color: black;
+    background-color: rgba(0, 168, 90, 0.664);
+    color: white;
     padding: 10px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 20px 20px 0 0;
+    font-style: italic;
 }
 aside .quadro{
-    background-color:#20367F;
+    background-color:rgba(32, 54, 127, 0.721);
     color:white;
     width: 500px;
     border-radius: 20px;
@@ -170,9 +171,36 @@ main img{
 main figcaption{
     margin-top: 10px;
 }
-main address{
-    display: flex;
+main .endereco{
+    font-style: italic;
 }
+.icone{
+    box-shadow: none;
+}
+.container{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+#insta{
+    padding: 15px;
+}
+#email-text{
+    padding-left: 5px;
+}
+#instagram-text{
+    padding-top: 5px;
+}
+#mail{
+    width:20px;
+}
+
+#instagram{
+    width:30px;
+    
+}
+
 .background{
     background-image: url("imagens/background2.jpg");
     background-size: cover;
