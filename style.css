@@ -161,8 +161,11 @@ main figure{
     text-align: center;
     width:400px;
 }
-img{
+main img{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.47);
+    width: 80vw;
+}
+img{
     width: 80%;
 }
 main figcaption{
