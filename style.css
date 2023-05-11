@@ -74,16 +74,17 @@ nav > a:hover, #atual{
 }
 
 main{
-    min-height: 900px;
     max-width: 800px;
-    min-width: 320px;
+    min-width: 300px;
     margin: auto;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.244), -2px -2px 10px rgba(0, 0, 0, 0.244);
     font: normal 1em var(--font-text);
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.075);
     border-radius: 0 0 10px 10px;
 }
-
+main .latin{
+    font: italic 1em var(--font-text);
+}
 main .conteudo{
     padding:20px;
 }
@@ -109,6 +110,37 @@ main p{
     text-indent: 30px;
     text-align: justify;
 }
+main h2{
+    margin: 40px 0px 40px 0px;
+    padding: 5px;
+}
+.quadro h2{
+    margin: 0;
+    background-color: #00A859;
+    color: black;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+aside .quadro{
+    background-color:#20367F;
+    color:white;
+    width: 500px;
+    border-radius: 20px;
+}
+aside{
+    display: flex;
+    justify-content: center;
+}
+aside p{
+    padding: 10px 10px 10px 20px;
+    margin: 0px;
+}
+
+main h3{
+    margin: 40px 0px 40px 0px;
+    padding: 5px;
+    font-size: 0.9em;
+}
 main h1{
     margin: 40px 0px 40px 0px;
     font-size: 2em;
@@ -129,9 +161,9 @@ main figure{
     text-align: center;
     width:400px;
 }
-main img{
+img{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.47);
-    width: 500px;
+    width: 80%;
 }
 main figcaption{
     margin-top: 10px;
