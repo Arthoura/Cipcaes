@@ -73,6 +73,11 @@ nav > a:hover, #atual{
     transition-duration: 0.5s;
 }
 
+.mapa{
+    display: flex;
+    justify-content: center;
+    padding:20px;
+}
 main{
     max-width: 800px;
     min-width: 320px;
