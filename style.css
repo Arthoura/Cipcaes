@@ -52,13 +52,14 @@ header .brasao-canil{
 #nome{
     text-align: center;
 }
-
+nav{
+    display: block;
+}
 nav, #burguer{
     background-color: #20367fdf;
     padding:10px;
     box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.212);
 }
-
 #burguer{
     display: none;
     color: white;
@@ -252,7 +253,6 @@ footer img{
 
 
 @media screen and (max-width:1000px){
-   
     header .brasao-canil{
         width: 120px;
     }
@@ -267,7 +267,6 @@ footer img{
 
 
 @media screen and (max-width:870px){
-   
     header .brasao-canil{
         width: 110px;
     }
@@ -280,8 +279,9 @@ footer img{
     }
 }
 
+/*Para tablets*/
+
 @media screen and (max-width:750px){
-   
     header .brasao-canil{
         width: 100px;
     }
@@ -294,23 +294,9 @@ footer img{
     }
 }
 
+/*Para celulares*/
 
-@media screen and (max-width:610px){ /*Para celulares*/
-   
-
-    header .brasao-canil{
-        align-items: flex-start;
-        width: 100px;
-        ;
-    }
-    #canil h2{
-        font: bolder 0.9em Arial, Helvetica, sans-serif;
-    }
-    #nome h3{
-        font: bolder 0.85em Arial, Helvetica, sans-serif;
-        padding:10px;
-    }
-
+@media screen and (max-width:610px){ 
     header > #canil{
         background-color: var(--cor-SDS);
         height: 200px;
@@ -322,10 +308,10 @@ footer img{
         box-shadow: inset 0px 5px 20px rgba(0, 0, 0, 0.427);
     }
     nav{
-        padding: 5px 0px 5px 0px;
+        display: none;
     }
     nav > a{
-        display: block;
+        display: block; /*Deixa os itens em formato de coluna*/
         text-align: center;
         margin-top: 5px;
     }

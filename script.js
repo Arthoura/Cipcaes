@@ -1,8 +1,8 @@
 function mostrarMenu(){
-    if(itens.style.display == 'none'){
-        itens.style.display = 'block';
+    if(itens.style.display == 'block'){
+        itens.style.display = 'none';
     }
     else{
-        itens.style.display = 'none'
+        itens.style.display = 'block'
     }
 }
