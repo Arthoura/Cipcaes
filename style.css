@@ -242,3 +242,77 @@ footer img{
     background-color: #FFF212;
     height: 3px;
 }
+
+
+
+@media screen and (max-width:1000px){
+   
+    header .brasao-canil{
+        width: 120px;
+    }
+    #canil h2{
+        font: bolder 1.7em Arial, Helvetica, sans-serif;
+    }
+    #nome h3{
+        font: bolder 0.95em Arial, Helvetica, sans-serif;
+        padding:10px;
+    }
+}
+
+
+@media screen and (max-width:870px){
+   
+    header .brasao-canil{
+        width: 110px;
+    }
+    #canil h2{
+        font: bolder 1.5em Arial, Helvetica, sans-serif;
+    }
+    #nome h3{
+        font: bolder 0.95em Arial, Helvetica, sans-serif;
+        padding:10px;
+    }
+}
+
+@media screen and (max-width:750px){
+   
+    header .brasao-canil{
+        width: 100px;
+    }
+    #canil h2{
+        font: bolder 1.2em Arial, Helvetica, sans-serif;
+    }
+    #nome h3{
+        font: bolder 0.95em Arial, Helvetica, sans-serif;
+        padding:10px;
+    }
+}
+
+
+@media screen and (max-width:610px){
+   
+
+    header .brasao-canil{
+        align-items: flex-start;
+        width: 100px;
+        ;
+    }
+    #canil h2{
+        font: bolder 1em Arial, Helvetica, sans-serif;
+    }
+    #nome h3{
+        font: bolder 0.95em Arial, Helvetica, sans-serif;
+        padding:10px;
+    }
+
+    header > #canil{
+        background-color: var(--cor-SDS);
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        padding-top:20px;
+        box-shadow: inset 0px 5px 20px rgba(0, 0, 0, 0.427);
+    }
+}
