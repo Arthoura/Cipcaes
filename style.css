@@ -53,10 +53,16 @@ header .brasao-canil{
     text-align: center;
 }
 
-nav{
+nav, #burguer{
     background-color: #20367fdf;
     padding:10px;
     box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+#burguer{
+    display: none;
+    color: white;
+    text-align: center;
 }
 nav > a{
     text-decoration: none;
@@ -289,7 +295,7 @@ footer img{
 }
 
 
-@media screen and (max-width:610px){
+@media screen and (max-width:610px){ /*Para celulares*/
    
 
     header .brasao-canil{
@@ -315,4 +321,27 @@ footer img{
         padding-top:20px;
         box-shadow: inset 0px 5px 20px rgba(0, 0, 0, 0.427);
     }
-}
+    nav{
+        padding: 5px 0px 5px 0px;
+    }
+    nav > a{
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    nav > a:hover, #atual{
+        border-radius: 0px;
+    }
+
+    #burguer{
+        padding:10px;
+        display: block;
+        cursor: pointer;
+    }
+    
+    #burguer:hover{
+        background-color: #3351bb;
+        color:black;
+    }
+}   
