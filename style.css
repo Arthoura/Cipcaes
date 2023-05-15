@@ -43,7 +43,7 @@ header .brasao-canil{
     width: 130px;
 }
 #canil h2{
-    font: bolder 2em Arial, Helvetica, sans-serif;
+    font: bolder 1.5em Arial, Helvetica, sans-serif;
 }
 #nome h3{
     font: bolder 0.95em Arial, Helvetica, sans-serif;
@@ -250,50 +250,6 @@ footer img{
     height: 3px;
 }
 
-
-
-@media screen and (max-width:1000px){
-    header .brasao-canil{
-        width: 120px;
-    }
-    #canil h2{
-        font: bolder 1.7em Arial, Helvetica, sans-serif;
-    }
-    #nome h3{
-        font: bolder 0.95em Arial, Helvetica, sans-serif;
-        padding:10px;
-    }
-}
-
-
-@media screen and (max-width:870px){
-    header .brasao-canil{
-        width: 110px;
-    }
-    #canil h2{
-        font: bolder 1.5em Arial, Helvetica, sans-serif;
-    }
-    #nome h3{
-        font: bolder 0.95em Arial, Helvetica, sans-serif;
-        padding:10px;
-    }
-}
-
-/*Para tablets*/
-
-@media screen and (max-width:750px){
-    header .brasao-canil{
-        width: 100px;
-    }
-    #canil h2{
-        font: bolder 1.2em Arial, Helvetica, sans-serif;
-    }
-    #nome h3{
-        font: bolder 0.95em Arial, Helvetica, sans-serif;
-        padding:10px;
-    }
-}
-
 /*Para celulares*/
 
 @media screen and (max-width:610px){ 
@@ -320,6 +276,14 @@ footer img{
         border-radius: 0px;
     }
 
+    #canil h2{
+        font: bolder 1.1em Arial, Helvetica, sans-serif;
+    }
+    #nome h3{
+        font: bolder 0.85em Arial, Helvetica, sans-serif;
+        padding:10px;
+    }
+
     #burguer{
         padding:10px;
         display: block;
@@ -331,3 +295,50 @@ footer img{
         color:black;
     }
 }   
+/*Para tablets*/
+
+@media screen and (max-width:750px) and (min-width:610px){
+    header .brasao-canil{
+        width: 100px;
+    }
+    #canil h2{
+        font: bolder 1.2em Arial, Helvetica, sans-serif;
+    }
+    #nome h3{
+        font: bolder 0.95em Arial, Helvetica, sans-serif;
+        padding:10px;
+    }
+    nav{display: block;}
+}
+
+@media screen and (min-width:870px) and (max-width:1000px){
+    header .brasao-canil{
+        width: 150px;
+    }
+    #canil h2{
+        font: bolder 1.6em Arial, Helvetica, sans-serif;
+    }
+    #nome h3{
+        font: bolder 1em Arial, Helvetica, sans-serif;
+        padding:10px;
+    }
+    nav{display: block;}
+}
+
+
+
+@media screen and (min-width:1000px){
+    header .brasao-canil{
+        width: 170px;
+    }
+    #canil h2{
+        font: bolder 1.7em Arial, Helvetica, sans-serif;
+    }
+    #nome h3{
+        font: bolder 0.95em Arial, Helvetica, sans-serif;
+        padding:10px;
+    }
+    nav{display: block;}
+}
+
+
