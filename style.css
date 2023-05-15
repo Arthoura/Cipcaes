@@ -257,7 +257,7 @@ footer img{
 @media screen and (max-width:610px){ 
     header > #canil{
         background-color: var(--cor-SDS);
-        height: 200px;
+        height: 220px;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -279,11 +279,12 @@ footer img{
     }
 
     #canil h2{
-        font: bolder 1.1em Arial, Helvetica, sans-serif;
+        font: bolder 1em Arial, Helvetica, sans-serif;
     }
     #nome h3{
-        font: bolder 0.85em Arial, Helvetica, sans-serif;
+        font: bolder 0.75em Arial, Helvetica, sans-serif;
         padding:10px;
+        padding-bottom: 10px;
     }
 
     #burguer{
@@ -297,21 +298,24 @@ footer img{
         color:black;
     }
 }   
-/*Para tablets*/
+/*Para tablets (Quando o tamanho for, no mínimo, 610px e, no máximo, 750px*/
 
 @media screen and (max-width:750px) and (min-width:610px){
-    header .brasao-canil{
+    .brasao-canil{
         width: 100px;
     }
     #canil h2{
         font: bolder 1.2em Arial, Helvetica, sans-serif;
     }
     #nome h3{
-        font: bolder 0.95em Arial, Helvetica, sans-serif;
+        font: bolder .95em Arial, Helvetica, sans-serif;
         padding:10px;
+        display: inline-block;
+        
     }
 }
 
+/*Para computadores (Quando o tamanho for, no mínimo, 870px e, no máximo, 1000px*/
 @media screen and (min-width:870px) and (max-width:1000px){
     header .brasao-canil{
         width: 150px;
@@ -324,8 +328,6 @@ footer img{
         padding:10px;
     }
 }
-
-
 
 @media screen and (min-width:1000px){
     header .brasao-canil{
