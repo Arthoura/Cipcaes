@@ -28,6 +28,8 @@ header > #SDS{
 #imagem-logo-SDS{
     max-width:200px;
 }
+
+
 header > #canil{
     background-color: var(--cor-SDS);
     max-height: 400px;
@@ -308,7 +310,6 @@ footer img{
         font: bolder 0.95em Arial, Helvetica, sans-serif;
         padding:10px;
     }
-    nav{display: block;}
 }
 
 @media screen and (min-width:870px) and (max-width:1000px){
@@ -322,7 +323,6 @@ footer img{
         font: bolder 1em Arial, Helvetica, sans-serif;
         padding:10px;
     }
-    nav{display: block;}
 }
 
 
@@ -338,7 +338,6 @@ footer img{
         font: bolder 0.95em Arial, Helvetica, sans-serif;
         padding:10px;
     }
-    nav{display: block;}
 }
 
 
