@@ -10,6 +10,10 @@
     --cor-SDS: #20367F;
     --font-text: 'Montserrat', sans-serif;;
 }
+
+body{
+    background-color: #e3e9ff;
+}
 header > #SDS{
     display: flex;
     justify-content: center;
@@ -86,6 +90,7 @@ main{
     font: normal 1em var(--font-text);
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.075);
     border-radius: 0 0 10px 10px;
+    background-color: white;
 }
 main .latin{
     font: italic 1em var(--font-text);
