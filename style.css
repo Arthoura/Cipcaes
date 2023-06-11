@@ -118,7 +118,7 @@ main a:hover{
 main p{
     margin-top: 20px;
     text-indent: 30px;
-    text-align: justify;
+    text-align: left;
 }
 main h2{
     margin: 40px 0px 40px 0px;
@@ -161,16 +161,16 @@ main h1{
     font-weight: bolder;
 }
 main .imagem-historia{
-    display: flex;
+    display: grid;
+    margin-top: 30px;
+    grid-template-rows: 1fr 100px;
+    grid-template-columns: minmax(200px, 400px);
     justify-content: center;
+    justify-items: center;
 }
-main figure{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding:20px;
+main .imagem-historia p{
     text-align: center;
-    width:30vw;
+    text-indent: 0;
 }
 main img{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.47);
